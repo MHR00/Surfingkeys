@@ -1,3 +1,6 @@
+//settings.useVimKeyBindingsInInput = false;
+api.iunmap('<Ctrl-a>');
+
 // an example to create a new mapping `ctrl-y`
 api.mapkey('<ctrl-y>', 'Show me the money', function() {
     api.Front.showPopup('a well-known phrase uttered by characters in the 1996 film Jerry Maguire (Escape to close).');
@@ -10,9 +13,7 @@ api.map('gt', 'T');
 // an example to remove mapkey `Ctrl-i`
 api.unmap('<ctrl-i>');
 
-api.unmap('<ctrl-a>', 'ctrl-f');
-api.unmap('<ctrl-s>', 'ctrl-h');
-
+//api.unmap('<Ctrl-a>', 'insert');
 
 
 // set theme
