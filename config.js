@@ -11,6 +11,8 @@ api.map('gt', 'T');
 api.unmap('<ctrl-i>');
 
 api.unmap('<ctrl-a>', 'ctrl-f');
+api.unmap('<ctrl-s>', 'ctrl-h');
+
 
 
 // set theme
